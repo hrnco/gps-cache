@@ -1,0 +1,19 @@
+{
+    "name": "aroha/gps-cache",
+    "description": "Aroha Gps Cache",
+    "type": "package",
+    "require": {
+        "aroha/admin": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Matej Hrnciarik",
+            "email": "hrnciarik@aroha.sk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aroha\\GpsCacheBundle\\": "src/GpsCacheBundle/"
+        }
+    }
+}
